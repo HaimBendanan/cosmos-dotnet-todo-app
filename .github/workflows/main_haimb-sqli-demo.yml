@@ -19,7 +19,7 @@ jobs:
     - name: Set up .NET Core
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '6.0.x'
+        dotnet-version: '5.0.x'
         include-prerelease: true
 
     - name: Build with dotnet
@@ -53,5 +53,5 @@ jobs:
       with:
         app-name: 'haimb-sqli-demo'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_e1db2e1a1a5745c096662eccdeb30364 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_5c47a26fedb94204bbc94c8e5c0d3834 }}
         package: .
