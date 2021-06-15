@@ -53,5 +53,5 @@ jobs:
       with:
         app-name: 'haimb-sqli-demo'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_e3cd9db72a444321ad9f04e311c49cd9 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_2c3cad1273d043b29abc3adaf5ecc59f }}
         package: .
